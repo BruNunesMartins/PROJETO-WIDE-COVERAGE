@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+body {
+    height: 100%;
+
+}
+
+header {
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
+
+li {
+    font-size: 17px;
+    word-spacing: 20px;
+    list-style-type: none;
+    cursor: pointer;
+    color: rgb(3, 3, 85)
+}
+
+a:hover {
+    color: rgb(6, 164, 6);
+    ;
+
+
+}
+
+button {
+    font-size: 17px;
+    padding: 8px 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(6, 164, 6);
+    border: none;
+    cursor: pointer;
+
+
+}
+
+button:hover {
+    background: rgb(3, 3, 85);
+    color: rgb(6, 164, 6);
+
+
+}
+
+img {
+    width: 480px;
+    height: 480px;
+    margin: 120px 0 0 90px;
+
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+p {
+    font-size: 15px;
+    color: rgb(3, 3, 85);
+    margin-right: 400px;
+    margin-top: 60px;
+
+
+
+
+}
+
+h1 {
+    font-size: 55px;
+    color: rgb(3, 3, 85);
+    line-height: 65px;
+
+
+
+}
+
+.botao2 {
+    background-color: transparent;
+    color: rgb(6, 164, 6);
+    margin-top: 60px;
+
+
+
+}
+
+main {
+    margin-left: 150px;
+    margin-top: 240px;
+
+}
+
+@media screen and (max-width:700px) {
+
+    header {
+        display: none;
+
+    }
+
+
+    .container {
+       display: block;
+       position: static;
+      
+    }
+
+    img {
+        height: 250px;
+        width: 250px;
+        position: static;
+        margin-top: 56px;
+
+
+    }
+
+    h1 {
+        font-size: 35px;
+        line-height: 45px;
+    
+        display: block;
+
+
+    }
+
+p {
+text-align: center;
+height: auto;
+width: 50%;
+
+
+
+}
+
+
+
+
+ main {
+margin-top: 35px;
+text-align: justify;
+margin-left: 90px;
+
+
+
+ }
+
+.botao2 {
+
+margin-top: 20px;
+
+
+
+
+}
+}
